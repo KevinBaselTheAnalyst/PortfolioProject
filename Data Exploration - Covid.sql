@@ -96,6 +96,7 @@ where dea.continent is not null
 order by 2,3
 
 
+
 -- Using CTE to perform Calculation on Partition By in previous query
 
 With PopvsVac (Continent, Location, Date, Population, New_Vaccinations, RollingPeopleVaccinated)
@@ -113,7 +114,6 @@ where dea.continent is not null
 )
 Select *, (RollingPeopleVaccinated/Population)*100
 From PopvsVac
-
 
 
 -- Using Temp Table to perform Calculation on Partition By in previous query
@@ -142,7 +142,6 @@ Join PortfolioProject..CovidVaccinations vac
 
 Select *, (RollingPeopleVaccinated/Population)*100
 From #PercentPopulationVaccinated
-
 
 
 
