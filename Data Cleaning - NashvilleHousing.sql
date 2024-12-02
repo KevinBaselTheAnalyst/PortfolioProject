@@ -207,9 +207,6 @@ DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress
 
 --- Importing Data using OPENROWSET and BULK INSERT	
 
---  More advanced and looks cooler, but have to configure server appropriately to do correctly
---  Wanted to provide this in case you wanted to try it
-
 
 --sp_configure 'show advanced options', 1;
 --RECONFIGURE;
