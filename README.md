@@ -13,22 +13,22 @@ A cool feature is included where I will receive an email if the product's price 
 The purpose of this project was to demonstrate my SQL skills in Microsoft SQL Server. I explored the data for different statisitcs and trends.
 
 Functions used:<br />
-Aggregates<br />
-Running Totals<br />
-Temp Tables<br />
-CTE
+- Aggregates<br />
+- Running Totals<br />
+- Temp Tables<br />
+- CTE
  
 # Data Cleaning Project
 
 I used Microsoft SQL Server to clean up raw housing data.
 
 Tasks performed:<br />
-Standardizing date format<br />
-Populate null property addresses<br />
-Breaking the address into usable individual columns (Address, City, State)<br />
+- Standardizing date format<br />
+- Populate null property addresses<br />
+- Breaking the address into usable individual columns (Address, City, State)<br />
     Did this manually and using PARSENAME<br />
-Remove duplicates<br />
-Delete unused columns<br />
+- Remove duplicates<br />
+- Delete unused columns<br />
 
 # Indian E-commerce sales data analysis project
 
